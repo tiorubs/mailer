@@ -1,8 +1,8 @@
 {
   "name": "@tiorubs/mailer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "tiorubs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "sucrase ./lib -d ./dist --transforms imports"
   },
