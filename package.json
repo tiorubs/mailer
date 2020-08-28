@@ -1,0 +1,15 @@
+{
+  "name": "@tiorubs/mailer",
+  "version": "1.0.0",
+  "author": "tiorubs",
+  "main": "index.js",
+  "scripts": {
+    "build": "sucrase ./lib -d ./dist --transforms imports"
+  },
+  "dependencies": {
+    "nodemailer": "6.3.1"
+  },
+  "devDependencies": {
+    "sucrase": "3.15.0"
+  }
+}
